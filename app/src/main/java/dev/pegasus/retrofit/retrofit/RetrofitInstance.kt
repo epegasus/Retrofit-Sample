@@ -9,7 +9,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 object RetrofitInstance {
 
     val api: ClientApi by lazy {
-        // Add logging interceptor for getting response detail to interprete
+        // Add logging interceptor for getting response detail to interpret
         val loggingInterceptor = HttpLoggingInterceptor()
             .setLevel(HttpLoggingInterceptor.Level.BODY)
 
